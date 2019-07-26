@@ -1,6 +1,6 @@
-Project content:
-ConsoleApp1: Contains the AppHost and a simple Service
-WpfApp1: Contains a small app that reproduce the issue
+# Project content:
+- ConsoleApp1: Contains the AppHost and a simple Service
+- WpfApp1: Contains a small app that reproduce the issue
 
 WpfApp1 use some external DevExpress references that I add into the ".Assemblies" folder. The solution build successfully.
 
