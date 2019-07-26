@@ -35,6 +35,86 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.CodeParser.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.CodeParser.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Data.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.DataAccess.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Images.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Mvvm.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Office.v19.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Pdf.v19.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Printing.v19.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.RichEdit.v19.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.RichEdit.v19.1.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Accordion.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Accordion.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Controls.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Controls.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Core.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Core.v19.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Docking.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Layout.v19.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.NavBar.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Ribbon.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpf.Themes.Office2016White.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\.assemblies\DevExpress.Xpo.v19.1.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -106,15 +186,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Mvvm">
-      <Version>19.1.4</Version>
-    </PackageReference>
-    <PackageReference Include="DevExpress.Wpf.Core">
-      <Version>19.1.4</Version>
-    </PackageReference>
-    <PackageReference Include="DevExpress.Wpf.Navigation">
-      <Version>19.1.4</Version>
-    </PackageReference>
     <PackageReference Include="log4net">
       <Version>2.0.8</Version>
     </PackageReference>
