@@ -1,0 +1,128 @@
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Mvvm.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\log4net.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\ServiceStack.Client.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\ServiceStack.Text.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Memory.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Data.Common.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Net.Http.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Net.Sockets.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Security.SecureString.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe.config
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.CodeParser.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Data.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.DataAccess.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Images.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Office.v19.1.Core.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Core.v19.1.Extensions.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Core.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpo.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Accordion.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Controls.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Docking.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Layout.v19.1.Core.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.NavBar.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\DevExpress.Xpf.Ribbon.v19.1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\MainMenuView.g.cs
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\MainMenuView.baml
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.pdb
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\Header.g.cs
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\WpfApp1\obj\Debug\Header.baml
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Test\ServiceStack\WpfApp1\obj\Debug\MainMenuView.g.cs
+C:\Test\ServiceStack\WpfApp1\obj\Debug\Header.g.cs
+C:\Test\ServiceStack\WpfApp1\obj\Debug\App.g.cs
+C:\Test\ServiceStack\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Test\ServiceStack\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Test\ServiceStack\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Test\ServiceStack\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.CodeParser.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Data.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.DataAccess.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Images.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Mvvm.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Office.v19.1.Core.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.RichEdit.v19.1.Export.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Core.v19.1.Extensions.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Core.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Accordion.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Controls.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Docking.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Layout.v19.1.Core.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.NavBar.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Ribbon.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\DevExpress.Xpo.v19.1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\log4net.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\ServiceStack.Client.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\ServiceStack.Interfaces.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\ServiceStack.Text.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Buffers.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Memory.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Windows.Interactivity.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Data.Common.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Globalization.Extensions.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.IO.Compression.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Net.Http.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Net.Sockets.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Security.SecureString.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Threading.Overlapped.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\ClassLibrary1.dll
+C:\Test\ServiceStack\WpfApp1\bin\Debug\ClassLibrary1.pdb
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.exe.config
+C:\Test\ServiceStack\WpfApp1\obj\Debug\MainMenuView.baml
+C:\Test\ServiceStack\WpfApp1\obj\Debug\Header.baml
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Test\ServiceStack\WpfApp1\obj\Debug\WpfApp1.pdb

@@ -1,0 +1,1088 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "ServiceStack/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net",
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "compile": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        }
+      },
+      "ServiceStack.Redis/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Server/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack": "5.5.0",
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.OrmLite": "5.5.0",
+          "ServiceStack.Redis": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "ServiceStack/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net",
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "compile": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        }
+      },
+      "ServiceStack.Redis/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Server/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack": "5.5.0",
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.OrmLite": "5.5.0",
+          "ServiceStack.Redis": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "ServiceStack/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net",
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "compile": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        }
+      },
+      "ServiceStack.Redis/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Server/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack": "5.5.0",
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.OrmLite": "5.5.0",
+          "ServiceStack.Redis": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "ServiceStack/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net",
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "compile": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0",
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.OrmLite.dll": {}
+        }
+      },
+      "ServiceStack.Redis/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Net"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Server/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack": "5.5.0",
+          "ServiceStack.Client": "5.5.0",
+          "ServiceStack.Common": "5.5.0",
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.OrmLite": "5.5.0",
+          "ServiceStack.Redis": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Server.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ServiceStack/5.5.0": {
+      "sha512": "4LysQjn9g0nd+e37GWqkmSDbJjz+e1NGQVNC3ktVsdid2f3sp80ILjiEFU8PdxVXVplb8u7IwTKR0/igvLzdMQ==",
+      "type": "package",
+      "path": "servicestack/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.dll",
+        "lib/net45/ServiceStack.xml",
+        "lib/netstandard2.0/ServiceStack.dll",
+        "lib/netstandard2.0/ServiceStack.xml",
+        "servicestack.5.5.0.nupkg.sha512",
+        "servicestack.nuspec"
+      ]
+    },
+    "ServiceStack.Client/5.5.0": {
+      "sha512": "OgAKGHs+Imz/nx37avqshi998VoVQLV9kuB54+Vftjz8LKTb0wwY8M18O1q5/gGXcBMVz72B0e3IQpbx1kKnQQ==",
+      "type": "package",
+      "path": "servicestack.client/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Client.dll",
+        "lib/net45/ServiceStack.Client.xml",
+        "lib/netstandard2.0/ServiceStack.Client.dll",
+        "lib/netstandard2.0/ServiceStack.Client.xml",
+        "servicestack.client.5.5.0.nupkg.sha512",
+        "servicestack.client.nuspec"
+      ]
+    },
+    "ServiceStack.Common/5.5.0": {
+      "sha512": "fn8CFAmlvnGWucgh92yqzmHqoGOeYvVWzQx1FEgBR/bB3D6EZGsSrLHlhUlKSnVULwT98lmpzwvqeSVYISbU4Q==",
+      "type": "package",
+      "path": "servicestack.common/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Common.dll",
+        "lib/net45/ServiceStack.Common.xml",
+        "lib/netstandard2.0/ServiceStack.Common.dll",
+        "lib/netstandard2.0/ServiceStack.Common.xml",
+        "servicestack.common.5.5.0.nupkg.sha512",
+        "servicestack.common.nuspec"
+      ]
+    },
+    "ServiceStack.Interfaces/5.5.0": {
+      "sha512": "RvWZKVUAjVBUermN0LcESwfuK5AnxintGmeJwqA4+9p56cpQrFC24AZ0uRBoLHWF5vl6AyBlxKXA5zShLOwjow==",
+      "type": "package",
+      "path": "servicestack.interfaces/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Interfaces.dll",
+        "lib/net45/ServiceStack.Interfaces.xml",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.xml",
+        "servicestack.interfaces.5.5.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
+      ]
+    },
+    "ServiceStack.OrmLite/5.5.0": {
+      "sha512": "j4euEGpGMIqBsSmLsr7OQ5WR5960UYULTiHEo4Ws2VKIVFYYRxrjDJO5rYRqz455xNzhRxclf+OrYSUIikkL8A==",
+      "type": "package",
+      "path": "servicestack.ormlite/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.OrmLite.dll",
+        "lib/net45/ServiceStack.OrmLite.xml",
+        "lib/netstandard2.0/ServiceStack.OrmLite.dll",
+        "lib/netstandard2.0/ServiceStack.OrmLite.xml",
+        "servicestack.ormlite.5.5.0.nupkg.sha512",
+        "servicestack.ormlite.nuspec"
+      ]
+    },
+    "ServiceStack.Redis/5.5.0": {
+      "sha512": "Haf8OnQBUADftpFpwp4+sQWY50rImYeNtb9ZUyjTlRIpFF19Qi+X2eiLRzkKQExzb11tvIEtpjokxf1yT3XGGA==",
+      "type": "package",
+      "path": "servicestack.redis/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Redis.dll",
+        "lib/net45/ServiceStack.Redis.xml",
+        "lib/netstandard2.0/ServiceStack.Redis.dll",
+        "lib/netstandard2.0/ServiceStack.Redis.xml",
+        "servicestack.redis.5.5.0.nupkg.sha512",
+        "servicestack.redis.nuspec"
+      ]
+    },
+    "ServiceStack.Server/5.5.0": {
+      "sha512": "R8CjGYQj/zJsV2nwjlZ9AkP7cvDb4K2f9/JiXiG1iwgPnhGaKaEm2dE0syiGDtZUlR+jF0EhgetGJ5HRp/uHsA==",
+      "type": "package",
+      "path": "servicestack.server/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Server.dll",
+        "lib/net45/ServiceStack.Server.xml",
+        "lib/netstandard2.0/ServiceStack.Server.dll",
+        "lib/netstandard2.0/ServiceStack.Server.xml",
+        "servicestack.server.5.5.0.nupkg.sha512",
+        "servicestack.server.nuspec"
+      ]
+    },
+    "ServiceStack.Text/5.5.0": {
+      "sha512": "Qs1VVdl6vPkrr1PVE93kgmlOPc+6TIlNEuIA7bcpp3F6OUFg9fymwO0jCWUOqCMu1TJQlaxKKEfr0H1JvU/KYw==",
+      "type": "package",
+      "path": "servicestack.text/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Text.dll",
+        "lib/net45/ServiceStack.Text.xml",
+        "lib/netcoreapp2.1/ServiceStack.Text.dll",
+        "lib/netcoreapp2.1/ServiceStack.Text.xml",
+        "lib/netstandard2.0/ServiceStack.Text.dll",
+        "lib/netstandard2.0/ServiceStack.Text.xml",
+        "servicestack.text.5.5.0.nupkg.sha512",
+        "servicestack.text.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.2": {
+      "sha512": "fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
+      "type": "package",
+      "path": "system.memory/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.2.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "ClassLibrary1 >= 1.0.0",
+      "ServiceStack >= 5.5.0",
+      "ServiceStack.Server >= 5.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\enrico.gobbo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Test\\ServiceStack\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Test\\ServiceStack\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\enrico.gobbo\\.nuget\\packages\\",
+      "outputPath": "C:\\Test\\ServiceStack\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\enrico.gobbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\192.168.50.200\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/bJdRHdQ2EhPQpABBeUhEZwEeD5yXKQBez4vnBngo6VMirhPTxi/api": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {
+            "C:\\Test\\ServiceStack\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Test\\ServiceStack\\ClassLibrary1\\ClassLibrary1.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "ServiceStack": {
+            "target": "Package",
+            "version": "[5.5.0, )"
+          },
+          "ServiceStack.Server": {
+            "target": "Package",
+            "version": "[5.5.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

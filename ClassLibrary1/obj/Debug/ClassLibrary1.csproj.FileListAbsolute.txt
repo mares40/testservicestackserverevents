@@ -1,0 +1,16 @@
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Test\ServiceStack\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Test\ServiceStack\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Test\ServiceStack\ClassLibrary1\bin\Debug\ServiceStack.Interfaces.dll
+C:\Test\ServiceStack\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Test\ServiceStack\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Test\ServiceStack\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Test\ServiceStack\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Test\ServiceStack\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

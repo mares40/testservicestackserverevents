@@ -1,0 +1,1792 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "DevExpress.CodeParser/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Data/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.1.4]",
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Images/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Mvvm/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.DataAccess": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Export": "[19.1.4]",
+          "DevExpress.Wpf.Themes.Office2016White": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Navigation/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.Wpf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Themes.Office2016White/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "DevExpress.CodeParser/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Data/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.1.4]",
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Images/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Mvvm/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.DataAccess": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Export": "[19.1.4]",
+          "DevExpress.Wpf.Themes.Office2016White": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Navigation/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.Wpf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Themes.Office2016White/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "DevExpress.CodeParser/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Data/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.1.4]",
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Images/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Mvvm/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.DataAccess": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Export": "[19.1.4]",
+          "DevExpress.Wpf.Themes.Office2016White": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Navigation/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.Wpf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Themes.Office2016White/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "DevExpress.CodeParser/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Data/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.1.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.1.4]",
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Images/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Mvvm/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Mvvm.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Office.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.1.Export.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Core/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.DataAccess": "[19.1.4]",
+          "DevExpress.Images": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Pdf.Core": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.RichEdit.Export": "[19.1.4]",
+          "DevExpress.Wpf.Themes.Office2016White": "[19.1.4]",
+          "DevExpress.Xpo": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll": {},
+          "lib/net452/DevExpress.Xpf.Core.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Navigation/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]",
+          "DevExpress.Mvvm": "[19.1.4]",
+          "DevExpress.Printing.Core": "[19.1.4]",
+          "DevExpress.Wpf.Core": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Controls.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Docking.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll": {},
+          "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll": {},
+          "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Wpf.Themes.Office2016White/19.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.1.4": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.1.4]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.1.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0",
+          "ServiceStack.Text": "5.5.0"
+        },
+        "frameworkAssemblies": [
+          "System.ServiceModel",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.Threading",
+          "System.Threading.Tasks"
+        ],
+        "compile": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.1",
+        "dependencies": {
+          "ServiceStack.Interfaces": "5.5.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpress.CodeParser/19.1.4": {
+      "sha512": "Gw3OONBzq40mNU/pGul8ycDAl89WY6hc932Iw90+P0KL5Izn5gv1xYkyOAvI+JZUR9ldHHn/IVmbt7Kybm1fSw==",
+      "type": "package",
+      "path": "devexpress.codeparser/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.codeparser.19.1.4.nupkg.sha512",
+        "devexpress.codeparser.nuspec",
+        "lib/net452/DevExpress.CodeParser.v19.1.dll",
+        "lib/netstandard2.0/DevExpress.CodeParser.v19.1.dll"
+      ]
+    },
+    "DevExpress.Data/19.1.4": {
+      "sha512": "kSV6uaNasq7Ux1m77mMvX5Iikt3TM3rsB73YpBRQAn3Ds7KkpcXakDgfE2fRkuXXF/oSxUCkN9iAWJtR27OxDw==",
+      "type": "package",
+      "path": "devexpress.data/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.data.19.1.4.nupkg.sha512",
+        "devexpress.data.nuspec",
+        "lib/net452/DevExpress.Data.v19.1.dll",
+        "lib/net452/DevExpress.Data.v19.1.xml",
+        "lib/netstandard2.0/DevExpress.Data.v19.1.dll",
+        "lib/netstandard2.0/DevExpress.Data.v19.1.xml"
+      ]
+    },
+    "DevExpress.DataAccess/19.1.4": {
+      "sha512": "30mLuiTxpfdCE/aMptnLxokyVnWoatNSIcsCrcyKutEgCFjsKUgAm/KLQzxFg+x/6KsSql3EVzOgcUfTe04V+A==",
+      "type": "package",
+      "path": "devexpress.dataaccess/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.dataaccess.19.1.4.nupkg.sha512",
+        "devexpress.dataaccess.nuspec",
+        "lib/net452/DevExpress.DataAccess.v19.1.dll",
+        "lib/net452/DevExpress.DataAccess.v19.1.xml",
+        "lib/netstandard2.0/DevExpress.DataAccess.v19.1.dll",
+        "lib/netstandard2.0/DevExpress.DataAccess.v19.1.xml"
+      ]
+    },
+    "DevExpress.Images/19.1.4": {
+      "sha512": "YN6Kqt7UuAx6ri+75ozf/y47ix8p30ACmA/cp0Hlgk9OPudMMujUQewXhF3djIoKQckZCrQ0x90WLi0FXq5JOg==",
+      "type": "package",
+      "path": "devexpress.images/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.images.19.1.4.nupkg.sha512",
+        "devexpress.images.nuspec",
+        "lib/net452/DevExpress.Images.v19.1.dll"
+      ]
+    },
+    "DevExpress.Mvvm/19.1.4": {
+      "sha512": "H0kNJFTCHvBIwBCsUtQFcPu8XD255V2oSGCZcLteIXUcVWZWOL/ODxxiEgLIBfppJlGyJj9pF76WTXOYOVOnug==",
+      "type": "package",
+      "path": "devexpress.mvvm/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.mvvm.19.1.4.nupkg.sha512",
+        "devexpress.mvvm.nuspec",
+        "lib/net452/DevExpress.Mvvm.v19.1.dll",
+        "lib/net452/DevExpress.Mvvm.v19.1.xml"
+      ]
+    },
+    "DevExpress.Office.Core/19.1.4": {
+      "sha512": "mXZpXwz9oSuWznmZstrocJNmQXrvpPACjnpzNlpoAesiUKr5O4XTrLaf01Nn/th0us0GnHvfM3J1/dLeOZWq6Q==",
+      "type": "package",
+      "path": "devexpress.office.core/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.office.core.19.1.4.nupkg.sha512",
+        "devexpress.office.core.nuspec",
+        "lib/net452/DevExpress.Office.v19.1.Core.dll",
+        "lib/net452/DevExpress.Office.v19.1.Core.xml",
+        "lib/netstandard2.0/DevExpress.Office.v19.1.Core.dll",
+        "lib/netstandard2.0/DevExpress.Office.v19.1.Core.xml"
+      ]
+    },
+    "DevExpress.Pdf.Core/19.1.4": {
+      "sha512": "0t2HzQlA++5sFyziFFRLMR3TEqaJpMtkZZw2I58YTXfDQZmta/y3JQ/8L89Atkss5Sij0WxwU3LsM4jVL0lXtg==",
+      "type": "package",
+      "path": "devexpress.pdf.core/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.pdf.core.19.1.4.nupkg.sha512",
+        "devexpress.pdf.core.nuspec",
+        "lib/net452/DevExpress.Pdf.v19.1.Core.dll",
+        "lib/net452/DevExpress.Pdf.v19.1.Core.xml",
+        "lib/netstandard2.0/DevExpress.Pdf.v19.1.Core.dll",
+        "lib/netstandard2.0/DevExpress.Pdf.v19.1.Core.xml"
+      ]
+    },
+    "DevExpress.Printing.Core/19.1.4": {
+      "sha512": "Zhv8WyEW6gxUvcs88YjUoaohmRNmccL7+oLMtetdGR1O2RqwF8Hfow5Ymlvfk5BK0y+FXpPcDu+DGTqBeMKGmA==",
+      "type": "package",
+      "path": "devexpress.printing.core/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.printing.core.19.1.4.nupkg.sha512",
+        "devexpress.printing.core.nuspec",
+        "lib/net452/DevExpress.Printing.v19.1.Core.dll",
+        "lib/net452/DevExpress.Printing.v19.1.Core.xml",
+        "lib/netstandard2.0/DevExpress.Printing.v19.1.Core.dll",
+        "lib/netstandard2.0/DevExpress.Printing.v19.1.Core.xml"
+      ]
+    },
+    "DevExpress.RichEdit.Core/19.1.4": {
+      "sha512": "EwMb+93qVuM+H814r+kgBwuLkwg+vJaZf4i9AJ9nE8sD/3qjJ8NLN78YNktuUNIo6Sgsq30+zuhSefbSIq7mdg==",
+      "type": "package",
+      "path": "devexpress.richedit.core/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.richedit.core.19.1.4.nupkg.sha512",
+        "devexpress.richedit.core.nuspec",
+        "lib/net452/DevExpress.RichEdit.v19.1.Core.dll",
+        "lib/net452/DevExpress.RichEdit.v19.1.Core.xml",
+        "lib/netstandard2.0/DevExpress.RichEdit.v19.1.Core.dll",
+        "lib/netstandard2.0/DevExpress.RichEdit.v19.1.Core.xml"
+      ]
+    },
+    "DevExpress.RichEdit.Export/19.1.4": {
+      "sha512": "Y9htndHzaNddh9vvRrEdaXmHtMiku+JPti9oqCydT+4YV6YQ9n4lHm+42/6vcus5IBrZSH5uUFYur/UnKQUrMA==",
+      "type": "package",
+      "path": "devexpress.richedit.export/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.richedit.export.19.1.4.nupkg.sha512",
+        "devexpress.richedit.export.nuspec",
+        "lib/net452/DevExpress.RichEdit.v19.1.Export.dll",
+        "lib/netstandard2.0/DevExpress.RichEdit.v19.1.Export.dll"
+      ]
+    },
+    "DevExpress.Wpf.Core/19.1.4": {
+      "sha512": "uQjZOlrniuvurklP8f7BOvzP6VUUh6v81FHFacw1hzNtb8q/MX1cxqsAXaEdeLUwEGd9WEfCj7CT6FYW/3XEpQ==",
+      "type": "package",
+      "path": "devexpress.wpf.core/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.wpf.core.19.1.4.nupkg.sha512",
+        "devexpress.wpf.core.nuspec",
+        "lib/net452/DevExpress.Xpf.Core.v19.1.Extensions.dll",
+        "lib/net452/DevExpress.Xpf.Core.v19.1.dll",
+        "lib/net452/DevExpress.Xpf.Core.v19.1.xml"
+      ]
+    },
+    "DevExpress.Wpf.Navigation/19.1.4": {
+      "sha512": "BBD3zI+GNOfHmJ+ozZyqPPJGijEe1aY8H4aSdWEtVUSNKlVYmGYLNpFAnZlUo0ECZhCh1Epq5e3strBoQcSeWA==",
+      "type": "package",
+      "path": "devexpress.wpf.navigation/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.wpf.navigation.19.1.4.nupkg.sha512",
+        "devexpress.wpf.navigation.nuspec",
+        "lib/net452/DevExpress.Xpf.Accordion.v19.1.dll",
+        "lib/net452/DevExpress.Xpf.Accordion.v19.1.xml",
+        "lib/net452/DevExpress.Xpf.Controls.v19.1.dll",
+        "lib/net452/DevExpress.Xpf.Controls.v19.1.xml",
+        "lib/net452/DevExpress.Xpf.Docking.v19.1.dll",
+        "lib/net452/DevExpress.Xpf.Docking.v19.1.xml",
+        "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.dll",
+        "lib/net452/DevExpress.Xpf.Layout.v19.1.Core.xml",
+        "lib/net452/DevExpress.Xpf.NavBar.v19.1.dll",
+        "lib/net452/DevExpress.Xpf.NavBar.v19.1.xml",
+        "lib/net452/DevExpress.Xpf.Ribbon.v19.1.dll",
+        "lib/net452/DevExpress.Xpf.Ribbon.v19.1.xml"
+      ]
+    },
+    "DevExpress.Wpf.Themes.Office2016White/19.1.4": {
+      "sha512": "jAREm9HlEWYar4PcTavFoygK+fLOWlztnrS8VPtlv1Nc9ufbq90RioDyMbSjUcAQ1nWreFNEKxp/Bcst9Qqesg==",
+      "type": "package",
+      "path": "devexpress.wpf.themes.office2016white/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.wpf.themes.office2016white.19.1.4.nupkg.sha512",
+        "devexpress.wpf.themes.office2016white.nuspec",
+        "lib/net452/DevExpress.Xpf.Themes.Office2016White.v19.1.dll"
+      ]
+    },
+    "DevExpress.Xpo/19.1.4": {
+      "sha512": "txexrHHZ2R2XQB09w98gbwk3IhxLyjOlcfEKUALD+2mj+rmuAICkj6fAc3qWALQSSNKiXwL7T7KGVEs8tslmzQ==",
+      "type": "package",
+      "path": "devexpress.xpo/19.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.xpo.19.1.4.nupkg.sha512",
+        "devexpress.xpo.nuspec",
+        "lib/net452/DevExpress.Xpo.v19.1.dll",
+        "lib/net452/DevExpress.Xpo.v19.1.xml",
+        "lib/netstandard2.0/DevExpress.Xpo.v19.1.dll",
+        "lib/netstandard2.0/DevExpress.Xpo.v19.1.xml"
+      ]
+    },
+    "log4net/2.0.8": {
+      "sha512": "N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
+      "type": "package",
+      "path": "log4net/2.0.8",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "log4net.2.0.8.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "ServiceStack.Client/5.5.0": {
+      "sha512": "OgAKGHs+Imz/nx37avqshi998VoVQLV9kuB54+Vftjz8LKTb0wwY8M18O1q5/gGXcBMVz72B0e3IQpbx1kKnQQ==",
+      "type": "package",
+      "path": "servicestack.client/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Client.dll",
+        "lib/net45/ServiceStack.Client.xml",
+        "lib/netstandard2.0/ServiceStack.Client.dll",
+        "lib/netstandard2.0/ServiceStack.Client.xml",
+        "servicestack.client.5.5.0.nupkg.sha512",
+        "servicestack.client.nuspec"
+      ]
+    },
+    "ServiceStack.Interfaces/5.5.0": {
+      "sha512": "RvWZKVUAjVBUermN0LcESwfuK5AnxintGmeJwqA4+9p56cpQrFC24AZ0uRBoLHWF5vl6AyBlxKXA5zShLOwjow==",
+      "type": "package",
+      "path": "servicestack.interfaces/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Interfaces.dll",
+        "lib/net45/ServiceStack.Interfaces.xml",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.xml",
+        "servicestack.interfaces.5.5.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
+      ]
+    },
+    "ServiceStack.Text/5.5.0": {
+      "sha512": "Qs1VVdl6vPkrr1PVE93kgmlOPc+6TIlNEuIA7bcpp3F6OUFg9fymwO0jCWUOqCMu1TJQlaxKKEfr0H1JvU/KYw==",
+      "type": "package",
+      "path": "servicestack.text/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ServiceStack.Text.dll",
+        "lib/net45/ServiceStack.Text.xml",
+        "lib/netcoreapp2.1/ServiceStack.Text.dll",
+        "lib/netcoreapp2.1/ServiceStack.Text.xml",
+        "lib/netstandard2.0/ServiceStack.Text.dll",
+        "lib/netstandard2.0/ServiceStack.Text.xml",
+        "servicestack.text.5.5.0.nupkg.sha512",
+        "servicestack.text.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.2": {
+      "sha512": "fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
+      "type": "package",
+      "path": "system.memory/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.2.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Windows.Interactivity.WPF/2.0.20525": {
+      "sha512": "0r+Le4E7hCm4zToUvBzjSUyTcuU3rFeoPa7JyTdWIzR/F7wH6+O/pWkjHIG40hIA0z1wvRdZayvoizA4wcK1dg==",
+      "type": "package",
+      "path": "system.windows.interactivity.wpf/2.0.20525",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net40/Microsoft.Expression.Interactions.dll",
+        "lib/net40/Microsoft.Expression.Interactions.xml",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512",
+        "system.windows.interactivity.wpf.nuspec"
+      ]
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "ClassLibrary1 >= 1.0.0",
+      "DevExpress.Mvvm >= 19.1.4",
+      "DevExpress.Wpf.Core >= 19.1.4",
+      "DevExpress.Wpf.Navigation >= 19.1.4",
+      "ServiceStack.Client >= 5.5.0",
+      "ServiceStack.Interfaces >= 5.5.0",
+      "System.Windows.Interactivity.WPF >= 2.0.20525",
+      "log4net >= 2.0.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\enrico.gobbo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Test\\ServiceStack\\WpfApp1\\WpfApp1.csproj",
+      "projectName": "WpfApp1",
+      "projectPath": "C:\\Test\\ServiceStack\\WpfApp1\\WpfApp1.csproj",
+      "packagesPath": "C:\\Users\\enrico.gobbo\\.nuget\\packages\\",
+      "outputPath": "C:\\Test\\ServiceStack\\WpfApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\enrico.gobbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\192.168.50.200\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/bJdRHdQ2EhPQpABBeUhEZwEeD5yXKQBez4vnBngo6VMirhPTxi/api": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {
+            "C:\\Test\\ServiceStack\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Test\\ServiceStack\\ClassLibrary1\\ClassLibrary1.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "DevExpress.Mvvm": {
+            "target": "Package",
+            "version": "[19.1.4, )"
+          },
+          "DevExpress.Wpf.Core": {
+            "target": "Package",
+            "version": "[19.1.4, )"
+          },
+          "DevExpress.Wpf.Navigation": {
+            "target": "Package",
+            "version": "[19.1.4, )"
+          },
+          "ServiceStack.Client": {
+            "target": "Package",
+            "version": "[5.5.0, )"
+          },
+          "ServiceStack.Interfaces": {
+            "target": "Package",
+            "version": "[5.5.0, )"
+          },
+          "System.Windows.Interactivity.WPF": {
+            "target": "Package",
+            "version": "[2.0.20525, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.8, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

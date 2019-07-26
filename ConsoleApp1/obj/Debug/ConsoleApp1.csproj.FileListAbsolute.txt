@@ -1,0 +1,70 @@
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.Client.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.Common.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.Redis.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.Server.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ServiceStack.Text.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Buffers.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Memory.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Data.Common.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Net.Http.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Net.Sockets.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Security.SecureString.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ClassLibrary1.dll
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\bin\Debug\ClassLibrary1.pdb
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\enrico.gobbo\Desktop\New folder\WpfApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.Client.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.Common.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.Interfaces.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.OrmLite.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.Redis.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.Server.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ServiceStack.Text.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Buffers.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Memory.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Data.Common.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Globalization.Extensions.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.IO.Compression.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Net.Http.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Net.Sockets.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Security.SecureString.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Threading.Overlapped.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ClassLibrary1.dll
+C:\Test\ServiceStack\ConsoleApp1\bin\Debug\ClassLibrary1.pdb
+C:\Test\ServiceStack\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Test\ServiceStack\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
+C:\Test\ServiceStack\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Test\ServiceStack\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Test\ServiceStack\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Test\ServiceStack\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
